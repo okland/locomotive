@@ -1,15 +1,11 @@
 {
-  "name": "locomotive",
+  "name": "locomotive with sockets",
   "version": "0.3.6",
   "description": "Powerful MVC web framework for Node.js.",
-  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "homepage": "http://locomotivejs.org/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/locomotive.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/locomotive/issues"
+    "url": "git://github.com/okland/locomotive"
   },
   "main": "./lib/locomotive",
   "bin" : { "lcm" : "./bin/lcm.js" },
@@ -36,6 +32,5 @@
   "licenses": [ {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
-  "keywords": ["express", "connect", "web", "mvc", "rails"]
+  } ]
 }
